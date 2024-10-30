@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 1.4;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: 'Georgia', cursive;
+}
+
+h1 {
+    color: #FDC032;
+    font-size: 4rem;
+    line-height: .9;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: .9;
+    margin: 60px 0 20px 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #00A24B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E8A062;
+}
+
+/* Entête de page */
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+header.logo {
+    max-height: 160px;
+}
+
+/* Contenu principal du site */
+main {
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+}
+
+.introduction {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto 40px auto;
+}
+
+main ul li {
+    background-color: #E8A062;
+    color: #ffffff;
+    padding: 15px 40px 10px 40px;
+}
+
+main ul li:nth-child(1) {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+main ul li:nth-child(n + 6) {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* Pied de page du site */
+footer div {
+    margin: 20px auto 40px auto;
+    max-width: 400px;
+    min-height: 50px;
+    border-top: 30px #E8A062;
+    border-bottom: 30px #E8A062;
+    border-radius: 30px;
+}
+
+footer div p {
+    background-color: #823922;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+}
