@@ -89,10 +89,13 @@ main ul li:nth-child(n + 6) {
 }
 
 /* Pied de page du site */
-footer a {
-    padding: 20px;
-    margin: 0 auto 0 20px;
+footer {
+    margin: 0 auto 0 auto;
     max-width: 600px;
+}
+
+footer a {
+    margin-left: 20px;
 }
 
 footer div {
